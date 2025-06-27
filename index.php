@@ -92,12 +92,8 @@
                             <br>
                             Kami Tunggu ya!!
                         </p>
-                        <a href="https://maps.app.goo.gl/E57MqEaDCpJjytow8" class="default_btn" style="opacity: 1; display: inline-flex; align-items: center; gap: 8px;">
-                            Lokasi Barbershop MRS
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5
-                                        c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-                            </svg>
+                        <a href="#contact-us" class="default_btn" style="opacity: 1; display: inline-flex; align-items: center; gap: 8px;">
+                            Klik Disini
                             </a>
                     </div>
                 </div>
@@ -138,7 +134,7 @@
                     </p>
                     <br>
                     <div class="social_links" style="display: flex; gap: 10px;">
-                        <a href="https://www.tiktok.com/@mrizkysrg?is_from_webapp=1&sender_device=pc" target="_blank">
+                        <a href="https://www.tiktok.com/@mrizkysrg" target="_blank" rel="noopener noreferrer">
                         <svg role="img" width = "40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title>
                         <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
                         </a>
@@ -402,39 +398,28 @@
                             +62 0852-6534-7618
                             <br> 
                         </h4>
+                        <a href="https://maps.app.goo.gl/E57MqEaDCpJjytow8" class="default_btn" style="opacity: 1; display: inline-flex; align-items: center; gap: 8px;">
+                            Lokasi Barbershop MRS
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5
+                                        c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+                            </svg>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-6 sm-padding">
-                    <div class="contact-form">
-                        <div id="contact_ajax_form" class="contactForm">
-                            <div class="form-group colum-row row">
-                                <div class="col-sm-6">
-                                    <input type="text" id="contact_name" name="name" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="email" id="contact_email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <input type="text" id="contact_subject" name="subject" class="form-control" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <textarea id="contact_message" name="message" cols="30" rows="5" class="form-control message" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-12">
-                                    <button id="contact_send" class="default_btn">Send Message</button>
-                                </div>
-                            </div>
-                            <img src="Design/images/ajax_loader_gif.gif" id = "contact_ajax_loader" style="display: none">
-                            <div id="contact_status_message"></div>
-                        </div>
-                    </div>
-                </div>
+                 <div class="col-lg-6 col-md-12">
+        <h2>Lokasi Kami</h2>
+        <div class="map_wrapper" style="
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.1397880872337!2d99.14185207478388!3d3.3156003966592293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031617546e73445%3A0xee131dc78ba2315!2sMRS%20BARBERSHOP!5e0!3m2!1sid!2sid!4v1751028035866!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
             </div>
         </div>
     </section>
